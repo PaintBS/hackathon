@@ -2,12 +2,8 @@
   text-align: center;
 }
 
-#header::before{
-  content: '';
+#header_container{
   background-image: url(osu_football.png);
-  position: absolute;
-  inset: 0;
-  opacity: 0.2;
 }
 
 #row1{

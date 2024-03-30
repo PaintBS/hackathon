@@ -18,8 +18,8 @@ function App() {
       <Container id='header_container'>
         <div id='header2'>
       <Row id='row1' className='justify-content-center' width="200px"> 
-        <Image rounded src='https://brand.okstate.edu/site-files/images/brand-guide/primary-brand.png' 
-        id='osu_logo' >
+        <Image rounded src="https://education.okstate.edu/site-files/images/marketing_communication/logos/osu_brand/osu-brand-primary-full.png"
+        id='osu_logo' > 
         </Image>
       </Row>
       <Row id='row2' className='justify-content-center'> SPORTS NAME</Row>
