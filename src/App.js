@@ -10,7 +10,7 @@ function App() {
     <div>
 
     <div className='container1-lg' id='head-of-page'>
-      <div className='row align-items-start'>
+      <div className='row1'>
         <header>      
           <h1 className='text-center' id='header'>OSU Highlights</h1>
         </header>
@@ -22,7 +22,7 @@ function App() {
 
       <div className='row3'>
         <div className='sort-container'>
-          <Dropdown>
+          <Dropdown className='dropdown-end'>
             <Dropdown.Toggle variant="success" id="sort-dropdown">
               Sort By
             </Dropdown.Toggle>
@@ -39,7 +39,7 @@ function App() {
     </div>
 
     <div className='container2-lg' id='body-of-page'>
-      <div className='row align-items-start'>
+      <div className='row1 align-items-start'>
         <div className='col1'>
           <h1 className='text-start'>Filter By</h1>
         </div>
