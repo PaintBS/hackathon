@@ -39,12 +39,12 @@ function App() {
       </div>
     </div>
 
-    <div className='container2-lg' id='body-of-page'>
-      <div className='row1 align-items-start'>
-        <Col align ='start'> Filter By</Col>
-        <Col align ='end'> VIDEOS HERE</Col>
-      </div>
-    </div>
+    <Container>
+      <Row>
+        <Col>Filter By</Col>
+        <Col>VIDEOS HERE</Col>
+      </Row>
+    </Container>
 
   </div>
   );
