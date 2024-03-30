@@ -41,10 +41,10 @@ function App() {
     <div className='container2-lg' id='body-of-page'>
       <div className='row1'>
         <div className='col1'>
-          <h1>Filter By</h1>
+          <h1 className='text-start'>Filter By</h1>
         </div>
         <div className='col2'>
-          <h2>VIDEOS HERE</h2>
+          <h2 className='text-end'>VIDEOS HERE</h2>
         </div>
       </div>
     </div>
