@@ -23,7 +23,7 @@ function App() {
 
       <div className='row3'>
         <div className='sort-container'>
-          <Dropdown align = 'end'>
+          <Dropdown align = "end">
             <Dropdown.Toggle variant="success" id="sort-dropdown">
               Sort By
             </Dropdown.Toggle>
