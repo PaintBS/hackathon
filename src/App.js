@@ -8,9 +8,12 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function App() {
   return (
     <div>
+
+    <div className='container-lg'>
     <header>
       <h1 className='text-center' id='header'>OSU Highlights</h1>
     </header>
+    </div>
 
     <div className='sort-container'>
       <Dropdown>
