@@ -41,8 +41,8 @@ function App() {
 
     <div className='container2-lg' id='body-of-page'>
       <div className='row1 align-items-start'>
-        <Col> Filter By</Col>
-        <Col> VIDEOS HERE</Col>
+        <Col align ='start'> Filter By</Col>
+        <Col align ='end'> VIDEOS HERE</Col>
       </div>
     </div>
 
