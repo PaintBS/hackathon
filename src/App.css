@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #df910b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,5 +17,13 @@
   color: rgb(213, 148, 18);
   font-weight: bold;
   background-color: rgb(0, 0, 0);
+  align-items:center
+}
+
+#filter-dropdown{
+  color: rgb(213, 148, 18);
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  align-items:center
 }
 
