@@ -23,7 +23,7 @@ function App() {
 
       <div className='row3'>
         <div className='sort-container'>
-          <DropdownButton align = 'end'>
+          <Dropdown align = 'end'>
             <Dropdown.Toggle variant="success" id="sort-dropdown">
               Sort By
             </Dropdown.Toggle>
@@ -34,7 +34,7 @@ function App() {
               <Dropdown.Item href="#/action-3">Newest</Dropdown.Item>
               <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
             </Dropdown.Menu>
-          </DropdownButton>
+          </Dropdown>
         </div>
       </div>
     </div>
