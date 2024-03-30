@@ -8,12 +8,13 @@ import Col from 'react-bootstrap/Col';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'react-bootstrap/Image';
+import MainPage from './MainPage';
 
 
 function Football() {
   return (
     <div>
-
+    <MainPage />
     <div id='header'>
       <Container id='header_container'>
         <div id='header2'>
@@ -53,5 +54,6 @@ function Football() {
     </div>
   );
 }
+
 
 export default Football;

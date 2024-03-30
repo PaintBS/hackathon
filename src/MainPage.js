@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './OsuLogoWhite.png'; // import the image
+import './MainPage.css'; // import the css file
 
 export default function MainPage(){
     return (
