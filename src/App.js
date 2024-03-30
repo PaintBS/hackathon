@@ -7,8 +7,12 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 function App() {
   return (
-    <div className='container'>
-      <h1>Hello There</h1>  
+    <div>
+    <header>
+      <h1>OSU Highlights</h1>
+    </header>
+
+    <div className='sort-container'>
       <Dropdown>
       <Dropdown.Toggle variant="success" id="sort-dropdown">
         Sort By
@@ -21,8 +25,9 @@ function App() {
         <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
- </div>
- 
+  </div>
+
+  </div>
   );
 }
 
