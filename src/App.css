@@ -2,27 +2,47 @@
   text-align: center;
 }
 
-#header{
-  color: orange;
-  font-weight: bold;
-  align-items: center;
+#header::before{
+  content: '';
+  background-image: url(osu_football.png);
+  position: absolute;
+  inset: 0;
+  opacity: 0.2;
 }
-
-#sort-dropdown{
-  color: rgb(213, 148, 18);
-  font-weight: bold;
-  background-color: rgb(0, 0, 0);
-  align-items:end
-}
-
 
 #row1{
   color: orange;
   font-size: x-large;
-  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
 }
+
+#osu_logo{
+  max-width: 30%;
+}
+
 #row2{
   color: black;
   font-size: larger;
-  align-items: center;
+  padding-top: 25px;
+}
+
+#row3{
+  padding-bottom: 75px;
+}
+
+#dropdown-button-sort{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  align-items:end
+}
+
+#col1{
+  font-size: larger;
+  font-weight: bold;
+}
+#col2{
+  font-size: larger;
+  font-weight: bold;
 }
