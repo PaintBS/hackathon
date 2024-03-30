@@ -22,7 +22,7 @@ function App() {
 
       <div className='row3'>
         <div className='sort-container'>
-          <Dropdown className='dropdown-end'>
+          <Dropdown>
             <Dropdown.Toggle variant="success" id="sort-dropdown">
               Sort By
             </Dropdown.Toggle>
