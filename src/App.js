@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import { Col } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 function App() {
@@ -38,6 +41,7 @@ function App() {
         </div>
       </div>
     </div>
+
 
     <Container>
       <Row>
