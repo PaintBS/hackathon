@@ -4,12 +4,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import { DropdownButton } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
+import MainPage from './MainPage';
+import './MainPage.css';
+
 
 
 function App() {
+  
   return (
-    <div>
 
+    <div>
+      < MainPage />
     <div className='container1-lg' id='head-of-page'>
       <div className='row1'>
         <header>      
