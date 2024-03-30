@@ -10,14 +10,15 @@ function App() {
     <div>
       <h1>Hello There</h1>  
       <Dropdown>
-      <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Dropdown Button
+      <Dropdown.Toggle variant="success" id="sort-dropdown">
+        Sort By
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="#/action-1">Most View</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Least View</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Recent</Dropdown.Item>
+        <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
     </div>

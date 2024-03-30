@@ -13,3 +13,9 @@
   color: white;
 }
 
+#sort-dropdown{
+  color: rgb(213, 148, 18);
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+}
+
