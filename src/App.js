@@ -18,9 +18,9 @@ function App() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Most View</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Least View</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Recent</Dropdown.Item>
+        <Dropdown.Item href="#/action-1">Most Viewed</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Least Viewed</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Newest</Dropdown.Item>
         <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
@@ -33,10 +33,14 @@ function App() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Most View</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Least View</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Recent</Dropdown.Item>
-        <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
+        <Dropdown.Toggle variant="success" id='Year'>
+          <Dropdown.Item href="#/action-1">Year1</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Year2</Dropdown.Item>
+        </Dropdown.Toggle>
+        <Dropdown.Toggle variant="success" id='View'>
+          <Dropdown.Item href="#/action-1">View1</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">View2</Dropdown.Item>
+        </Dropdown.Toggle>
       </Dropdown.Menu>
     </Dropdown>
     </body>
