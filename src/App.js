@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import { DropdownButton } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
@@ -22,7 +23,7 @@ function App() {
 
       <div className='row3'>
         <div className='sort-container'>
-          <Dropdown>
+          <DropdownButton align = 'end'>
             <Dropdown.Toggle variant="success" id="sort-dropdown">
               Sort By
             </Dropdown.Toggle>
@@ -33,7 +34,7 @@ function App() {
               <Dropdown.Item href="#/action-3">Newest</Dropdown.Item>
               <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
             </Dropdown.Menu>
-          </Dropdown>
+          </DropdownButton>
         </div>
       </div>
     </div>
