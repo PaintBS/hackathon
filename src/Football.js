@@ -16,7 +16,6 @@ function Football() {
 
     <div id='header'>
       <Container id='header_container'>
-        <div id='header2'>
       <Row id='row1' className='justify-content-center' width="200px"> 
         <Image rounded src="https://education.okstate.edu/site-files/images/marketing_communication/logos/osu_brand/osu-brand-primary-full.png"
         id='osu_logo' > 
@@ -37,7 +36,6 @@ function Football() {
           <Dropdown.Item href="#/action-4">Recent</Dropdown.Item>
         </DropdownButton>
       </Row>
-      </div>
     </Container>
     </div>
 
