@@ -6,14 +6,25 @@ function App() {
   return (
     <div>
       <h1>Hello There</h1>  
-      <div>
-      <button className='button' type='button' id='menudrop'>
-        Dropdown
-      </button>
-      <ul className='dropdown menu' aria-labelledby='menudrop'>
-        this is a dropdown, 
-      </ul>
-      </div>
+      <div className="row top-buffer">
+        <div className="col">
+            <div className="dropdown">
+                <button 
+                    className="btn btn-secondary dropdown-toggle" 
+                    type="button" 
+                    id="dropdownMenuButton" 
+                    data-toggle="dropdown" 
+                    aria-haspopup="true">
+                    Dropdown
+                </button>
+                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a className="dropdown-item" href="#nogo">Item 1</a>
+                    <a className="dropdown-item" href="#nogo">Item 2</a>
+                    <a className="dropdown-item" href="#nogo">Item 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     
   );
