@@ -39,7 +39,7 @@ function App() {
     </div>
 
     <div className='container2-lg' id='body-of-page'>
-      <div className='row1'>
+      <div className='row align-items-start'>
         <div className='col1'>
           <h1 className='text-start'>Filter By</h1>
         </div>
