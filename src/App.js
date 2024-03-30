@@ -8,8 +8,6 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function App() {
   return (
     <div>
-
-      <div>
       <body>
       <h1>Hello There</h1>  
       <Dropdown>
@@ -25,7 +23,6 @@ function App() {
       </Dropdown.Menu>
     </Dropdown>
     </body>
-    </div>
     <body>
     <Dropdown>
       <Dropdown.Toggle variant="success" id="filter-dropdown">
@@ -44,12 +41,9 @@ function App() {
       </Dropdown.Menu>
     </Dropdown>
     </body>
-    <div>
 
-    </div>
-
-    </div>
-    
+ </div>
+ 
   );
 }
 
