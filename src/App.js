@@ -23,25 +23,10 @@ function App() {
       </Dropdown.Menu>
     </Dropdown>
     </body>
-    <body>
-    <Dropdown>
-      <Dropdown.Toggle variant="success" id="filter-dropdown">
-        Sort By
-      </Dropdown.Toggle>
 
-      <Dropdown.Menu>
-        <Dropdown.Toggle variant="success" id='Year'>
-          <Dropdown.Item href="#/action-1">Year1</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Year2</Dropdown.Item>
-        </Dropdown.Toggle>
-        <Dropdown.Toggle variant="success" id='View'>
-          <Dropdown.Item href="#/action-1">View1</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">View2</Dropdown.Item>
-        </Dropdown.Toggle>
-      </Dropdown.Menu>
-    </Dropdown>
-    </body>
+    <div id='filter-div'>
 
+    </div>
  </div>
  
   );
