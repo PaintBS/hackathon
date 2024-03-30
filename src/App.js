@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-import { DropdownButton } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
@@ -41,12 +41,8 @@ function App() {
 
     <div className='container2-lg' id='body-of-page'>
       <div className='row1 align-items-start'>
-        <div className='col1'>
-          <h1 className='text-start'>Filter By</h1>
-        </div>
-        <div className='col2'>
-          <h2 className='text-end'>VIDEOS HERE</h2>
-        </div>
+        <Col> Filter By</Col>
+        <Col> VIDEOS HERE</Col>
       </div>
     </div>
 
