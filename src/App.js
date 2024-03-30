@@ -10,7 +10,7 @@ function App() {
     <div>
 
     <div className='container1-lg' id='head-of-page'>
-      <div className='row'>
+      <div className='row align-items-start'>
         <header>      
           <h1 className='text-center' id='header'>OSU Highlights</h1>
         </header>
