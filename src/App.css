@@ -16,3 +16,13 @@
 }
 
 
+#row1{
+  color: orange;
+  font-size: x-large;
+  align-items: center;
+}
+#row2{
+  color: black;
+  font-size: larger;
+  align-items: center;
+}

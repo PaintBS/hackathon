@@ -12,9 +12,9 @@ function App() {
   return (
     <div>
     <Container>
-      <Row> OSU </Row>
-      <Row> SPORTS NAME</Row>
-      <Row> 
+      <Row id='row1'> OSU </Row>
+      <Row id='row2'> SPORTS NAME</Row>
+      <Row id='row3'> 
         <Dropdown align = "end">
           <Dropdown.Toggle align = 'end' variant="success" id="sort-dropdown">
             Sort By
