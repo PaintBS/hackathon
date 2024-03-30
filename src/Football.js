@@ -1,4 +1,4 @@
-import './App.css';
+import './Football.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
@@ -10,7 +10,7 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'react-bootstrap/Image';
 
 
-function App() {
+function Football() {
   return (
     <div>
 
@@ -54,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default Football;
