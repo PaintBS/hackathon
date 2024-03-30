@@ -18,22 +18,23 @@ function App() {
       <div className='row2'>
         <h2 className='text-center' id='sport-name'> Sports Name </h2>
       </div>
+      <div className='row3'>
+        <div className='sort-container'>
+          <Dropdown>
+            <Dropdown.Toggle variant="success" id="sort-dropdown">
+              Sort By
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item href="#/action-1">Most Viewed</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Least Viewed</Dropdown.Item>
+              <Dropdown.Item href="#/action-3">Newest</Dropdown.Item>
+              <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+        </div>
+      </div>
     </div>
-
-    <div className='sort-container'>
-      <Dropdown>
-      <Dropdown.Toggle variant="success" id="sort-dropdown">
-        Sort By
-      </Dropdown.Toggle>
-
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Most Viewed</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Least Viewed</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Newest</Dropdown.Item>
-        <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
-  </div>
 
   </div>
   );
