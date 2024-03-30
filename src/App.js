@@ -2,33 +2,24 @@ import './App.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-import $ from 'jquery';
-import Popper from 'popper.js';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 
 function App() {
   return (
     <div>
       <h1>Hello There</h1>  
-      <div className="row top-buffer">
-        <div className="col">
-            <div className="dropdown">
-                <button 
-                    className="btn btn-secondary dropdown-toggle" 
-                    type="button" 
-                    id="dropdownMenuButton" 
-                    data-toggle="dropdown" 
-                    aria-haspopup="true">
-                    Dropdown
-                </button>
-                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a className="dropdown-item" href="#nogo">Item 1</a>
-                    <a className="dropdown-item" href="#nogo">Item 2</a>
-                    <a className="dropdown-item" href="#nogo">Item 3</a>
-                </div>
-            </div>
-        </div>
-    </div>
+      <Dropdown>
+      <Dropdown.Toggle variant="success" id="dropdown-basic">
+        Dropdown Button
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
     </div>
     
   );
