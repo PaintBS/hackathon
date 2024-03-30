@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="OSU Sports">
+      <header className="MainPage">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,6 +18,17 @@ function App() {
         >
           Learn React
         </a>
+        <Dropdown>
+      <Dropdown.Toggle variant="success" id="dropdown-basic">
+        Dropdown Button
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
       </header>
     </div>
   );
