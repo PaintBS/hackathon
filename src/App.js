@@ -10,9 +10,14 @@ function App() {
     <div>
 
     <div className='container-lg'>
-    <header>
-      <h1 className='text-center' id='header'>OSU Highlights</h1>
-    </header>
+      <div className='row'>
+        <header>      
+          <h1 className='text-center' id='header'>OSU Highlights</h1>
+        </header>
+      </div>
+      <div className='row2'>
+        <h2 className='text-center' id='sport-name'> Sports Name </h2>
+      </div>
     </div>
 
     <div className='sort-container'>
