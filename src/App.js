@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
     <header>
-      <h1 className='text-center'>OSU Highlights</h1>
+      <h1 className='text-center' id='header'>OSU Highlights</h1>
     </header>
 
     <div className='sort-container'>
