@@ -9,15 +9,17 @@ function App() {
   return (
     <div>
 
-    <div className='container-lg'>
+    <div className='container1-lg' id='head-of-page'>
       <div className='row'>
         <header>      
           <h1 className='text-center' id='header'>OSU Highlights</h1>
         </header>
       </div>
+
       <div className='row2'>
         <h2 className='text-center' id='sport-name'> Sports Name </h2>
       </div>
+
       <div className='row3'>
         <div className='sort-container'>
           <Dropdown>
@@ -32,6 +34,17 @@ function App() {
               <Dropdown.Item href="#/action-4">Oldest</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+        </div>
+      </div>
+    </div>
+
+    <div className='container2-lg' id='body-of-page'>
+      <div className='row1'>
+        <div className='col1'>
+          <h1>Filter By</h1>
+        </div>
+        <div className='col2'>
+          <h2>VIDEOS HERE</h2>
         </div>
       </div>
     </div>
