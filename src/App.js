@@ -1,12 +1,11 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Button } from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (
     <div>
       <h1>Hello There</h1>  
-      <Button>TestButton</Button>
     </div>
     
   );
