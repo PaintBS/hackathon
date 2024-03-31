@@ -26,9 +26,11 @@ export default function MainPage(){
                             <Col>
                             <DropdownButton id='menu-drop' title="Sports">
                                 <Dropdown.Item> 
-                                <Link id='sport' to="/Football">Football 
+                                <Link id='sport' to="/Football">
+                                    Football
                                 </Link></Dropdown.Item>
-                                <Dropdown.Item><Link id='sport' to="/Basketball">Basketball
+                                <Dropdown.Item><Link id='sport' to="/Basketball">
+                                    Basketball
                                 </Link></Dropdown.Item>
                             </DropdownButton>
                             </Col>

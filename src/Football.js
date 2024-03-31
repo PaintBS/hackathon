@@ -92,7 +92,6 @@ function Football() {
             <ul>
               {videos.map(video => (
                 <li key={video.id.videoId} className="video-item">
-                  <Container className='video-container'>
                   <h3>{video.snippet.title}</h3>
                   <iframe
                   title = "OSU Football Highlights"
@@ -103,7 +102,6 @@ function Football() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   ></iframe>
-                  </Container>
                 </li>
               ))}
             </ul>
