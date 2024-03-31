@@ -60,11 +60,6 @@ a{
     color: black;
 }
 
-#sport_select_menu{
-    color: black;
-    text-decoration: none;
-}
-
 #sport{
     text-decoration: none;
     color: black;
@@ -73,9 +68,4 @@ a{
     align-content: center;
     justify-content: center;
 }
-
-.sport-drop-name{
-    justify-content: center;
-}
-  
   
