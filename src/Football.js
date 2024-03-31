@@ -109,8 +109,6 @@ function Football() {
         </Row>
       </Container>
     </div>
-
-
     </div>
   );
 }
