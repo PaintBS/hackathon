@@ -19,21 +19,25 @@
     list-style: none;
     justify-content: space-between;
     margin-top: 20px;
-
 }
+
 img {
     width: 150px;
     height: auto;
   }
 
 a{
-    color: black;
     font-weight: bold;
     font-size:40px;
     padding-top: 35px;
     padding-left: 35px;
     padding-right: 35px;
+    color: black;
+}
+
+.nav-list a{
     text-decoration: none;
+    color: black;
 }
 
 
