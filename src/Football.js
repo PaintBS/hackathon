@@ -17,24 +17,29 @@ function Football() {
   
   const [videos, setVideos] = useState([]);
 
-  useEffect(() => {
-    async function fetchVideos() {
+  
+    async function fetchVideos(year = '') {
       try {
         const response = await youtubeApi.get('/search', {
           params: {
             part: 'snippet',
-            maxResults: 5,
-            q: 'Oklahoma State football highlights',
+            maxResults: 15, 
+            q: 'Oklahoma State football highlights ' + year, // Replace the template literal with string concatenation
           },
         });
+        console.log('Response data:', response.data);
         setVideos(response.data.items);
       } catch (error) {
         console.error('Error fetching videos:', error);
       }
     }
+    useEffect(() => {
     fetchVideos();
   }, []);
 
+  function handleYearSelect(year) {
+    fetchVideos(year); // Call fetchVideos with the selected year
+  }
   return (
     <div>
     <MainPage />
@@ -59,34 +64,55 @@ function Football() {
     </div>
 
     <div>
-      {/* Filter By and VIDEOS HERE section */}
-      <Container bg>
-        <Row id='row4'>
-          <Col id="col1">Filter By</Col>
-          <Col id="col2" align="center">
-            {/* Render videos as a list */}
-            <ul>
-              {videos.map(video => (
-                <li key={video.id.videoId} className="video-item">
-                  <h3>{video.snippet.title}</h3>
-                  <iframe
-                  title = "OSU Football Highlights"
-                    width="560"
-                    height="315"
-                    src={`https://www.youtube.com/embed/${video.id.videoId}`}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </li>
-              ))}
-            </ul>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+        <Container bg>
+          <Row id='row4'>
+            <Col id="col1">Filter By</Col>
+            <Col id="col2" align="center">
+              <DropdownButton 
+                id="dropdown-button-year"
+                variant="secondary"
+                title="Year"
+                className="mt-2"
+                data-bs-theme="light"
+              >
+                {/* Example filter options */}
+                <Dropdown.Item onClick={() => handleYearSelect('2023')}>2023</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2022')}>2022</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2022')}>2021</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2022')}>2020</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2022')}>2019</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2022')}>2018</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2022')}>2017</Dropdown.Item>
+                {/* Add more options as needed */}
+              </DropdownButton>
+            </Col>
+          </Row>
+        </Container>
+      </div>
 
-
+      <div>
+        <Container bg>
+          <Row id='row4'>
+            <Col id="col1"></Col>
+            <Col id="col2" align="center">
+              <div className="video-container">
+                {videos.map(video => (
+                  <div key={video.id.videoId} className="video-item">
+                    <h3>{video.snippet.title}</h3>
+                    <iframe
+                      title="OSU Football Highlights"
+                      src={`https://www.youtube.com/embed/${video.id.videoId}`}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                ))}
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 }
