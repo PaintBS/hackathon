@@ -59,8 +59,8 @@ function Football() {
     <div>
         <Container bg>
           <Row id='row4'>
-            <Col id="col1">Filter By</Col>
-            <Col id="col2" align="center">
+            <Col id="col1" align="start">Filter By</Col>
+            <Col id="col2" align="start">
               <DropdownButton 
                 id="dropdown-button-year"
                 variant="secondary"
