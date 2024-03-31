@@ -15,8 +15,9 @@ function Football() {
     <div>
     <MainPage />
     <div id='header'>
+      <body>
       <Container id='header_container'>
-      <Row id='row1' className='justify-content-center'>OSU Football</Row>
+      <Row id='row1' className='justify-content-center' >OSU Football</Row>
       <Row id='row2' align = "end"> 
         <DropdownButton 
           id="dropdown-button-sort"
@@ -32,6 +33,7 @@ function Football() {
         </DropdownButton>
       </Row>
     </Container>
+    </body>
     </div>
 
     <div>

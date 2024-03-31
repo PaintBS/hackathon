@@ -11,8 +11,6 @@
 #row1{
   color: black;
   font-size: 85px;
-  font-family: 'bebas';
-  src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   font-weight: bolder;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -63,3 +61,4 @@
   font-weight: 400;
   font-style: normal;
 }
+
