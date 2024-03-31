@@ -61,11 +61,14 @@
 }
 #col1{
   display: flex;
-  justify-content: center;
+  padding-left: 14px;
+  
 }
 
 #dropdown-button-year{
   font-size: 20px;
+  color: black;
+  background-color: white;
 }
 
 #year_dropdown{
