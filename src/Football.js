@@ -25,8 +25,9 @@ function Football() {
         const response = await api.get('/search', {
           params: {
             part: 'snippet',
-            maxResults: 15,
-            q: 'Oklahoma State football highlights ' + year,
+            maxResults: 10,
+            q: year ? 'Oklahoma State football highlights' + year : 'Oklahoma State football highlights',
+
           },
         });
         setVideos(response.data.items);
@@ -39,8 +40,11 @@ function Football() {
   }, []);
 
   function handleYearSelect(year) {
-    fetchVideos(year); // Call fetchVideos with the selected year
+    // Construct the search query string with the selected year
+    const searchTermWithYear = 'Oklahoma State football highlights' + year;
+    fetchVideos(searchTermWithYear); // Call fetchVideos with the updated search query
   }
+  
   return (
     <div>
     <MainPage/>
@@ -97,7 +101,6 @@ function Football() {
       {/* Filter By and VIDEOS HERE section */}
       <Container bg>
         <Row id='row4'>
-          <Col id="col1">Filter By</Col>
           <Col id="col2" align="center">
             {/* Render videos as a list */}
             <ul>
