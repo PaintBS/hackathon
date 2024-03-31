@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home">
         <MainPage />
-      <h1>Welcome To Cowboys Athletics</h1>
+      <h1 className="h1-home">Welcome To Cowboys Athletics</h1>
     </div>
   );
 }

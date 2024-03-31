@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h1{
+.h1-home{
     font-family: "Bebas Neue", sans-serif;
     font-size: 100px;
     display: flex;
@@ -20,6 +20,7 @@ h1{
     /* Center the background image */
     background-position: center;
     height: 100%;
+    padding-bottom: 500px;
     /* Prevent background image from repeating */
     background-repeat: no-repeat;
     color: white;
