@@ -9,7 +9,8 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import MainPage from './MainPage';
 import React, { useState, useEffect } from 'react';
-import youtubeApi from './Youtube'; // Import the youtubeApi instance
+import youtubeApi from './Youtube';
+ // Import the youtubeApi instance
 
 
 function Football() {
@@ -21,6 +22,8 @@ function Football() {
       try {
         const response = await youtubeApi.get('/search', {
           params: {
+            part: 'snippet',
+            maxResults: 5,
             q: 'Oklahoma State football highlights',
           },
         });
@@ -29,10 +32,8 @@ function Football() {
         console.error('Error fetching videos:', error);
       }
     }
-
     fetchVideos();
   }, []);
-
 
   return (
     <div>

@@ -63,3 +63,19 @@
   font-weight: 400;
   font-style: normal;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align iframes horizontally in the center */
+}
+
+.video-item {
+  margin-bottom: 20px;
+}
+
+.video-item iframe {
+  width: 100%; /* Ensure iframes take full width */
+  max-width: 800px; /* Limit maximum width if needed */
+}
+
