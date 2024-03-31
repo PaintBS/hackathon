@@ -1,4 +1,4 @@
-import './Football.css';
+import './Basketball.css';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
@@ -50,7 +50,7 @@ function Basketball() {
     <MainPage/>
     <div id='header'>
       <body>
-      <Container id='header_container'>
+      <Container id='header_containerb'>
       <Row id='row1' className='justify-content-center' >OSU Basketball</Row>
     </Container>
     </body>
@@ -94,7 +94,7 @@ function Basketball() {
                 <li key={video.id.videoId} className="video-item">
                   <h3>{video.snippet.title}</h3>
                   <iframe
-                  title = "OSU Football Highlights"
+                  title = "OSU Basketball Highlights"
                     width="560"
                     height="315"
                     src={`https://www.youtube.com/embed/${video.id.videoId}`}

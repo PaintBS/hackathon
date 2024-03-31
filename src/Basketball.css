@@ -1,0 +1,104 @@
+.Football {
+    text-align: center;
+  }
+  
+  #header_containerb{
+    background-image: url(Osubasketball.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+  
+  #row1{
+    color: white;
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    text-shadow: 3px 3px 4px #000000;
+  }
+  
+  #row4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #row5{
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  #dropdown-button-sort{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    align-items:end
+  }
+  
+  #highView{
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+  }
+  #lowView{
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+  }
+  #oldest{
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;}
+  #recent{
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;}
+  
+  #col1, #col2{
+    font-size: larger;
+    font-weight: bold;
+  }
+  #col1{
+    display: flex;
+    padding-left: 14px;
+    
+  }
+  
+  #dropdown-button-year{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+  }
+  
+  #year_dropdown{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Align iframes horizontally in the center */
+    }
+  
+  .video-item {
+    margin-bottom: 20px;
+  }
+  
+  .video-item iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px; /* Adjust the height as needed */
+  }

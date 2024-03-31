@@ -28,7 +28,8 @@ export default function MainPage(){
                                 <Dropdown.Item id='sport_select_menu'> 
                                 <Link to="/Football">Football 
                                 </Link></Dropdown.Item>
-                                <Dropdown.Item id='sport_select_menu'>Basketball</Dropdown.Item>
+                                <Dropdown.Item id='sport_select_menu'><Link to="/Basketball">Basketball
+                                </Link></Dropdown.Item>
                             </DropdownButton>
                             </Col>
                         </Row>
