@@ -3,10 +3,11 @@
 }
 
 #header_container{
-  background-image: url(osu_football.png);
+  background-image: url(Osufootball.png);
 }
 
 #row1{
+  
   color: black;
   font-size: 100px;
   font-family: "Bebas Neue", sans-serif;
