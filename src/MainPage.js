@@ -21,16 +21,10 @@ export default function MainPage(){
                     <li className='nav-list'  id='nav_link'><Link to="/">
                         Home</Link>
                     </li>
-                    <li className='nav-list'  id='nav_link' text-d><Link to="/Football">
-                        Football</Link>
-                    </li>
-        
-        
-                    
                     <Container>
                         <Row>
                             <Col>
-                            <DropdownButton title="Football">
+                            <DropdownButton id='menu-drop' title="Sports">
                                 <Dropdown.Item id='sport_select_menu'> 
                                 <Link to="/Football">Football 
                                 </Link></Dropdown.Item>

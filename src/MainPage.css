@@ -33,11 +33,25 @@ a{
     padding-left: 35px;
     padding-right: 35px;
     color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .nav-list a{
     text-decoration: none;
     color: black;
+    color: black;
+}
+
+#menu-drop{
+    font-size: 40px;
+    background-color: #ff7c04;
+    border-style: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-weight: bold;
     color: black;
 }
 
