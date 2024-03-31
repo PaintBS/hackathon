@@ -20,6 +20,13 @@
   padding-bottom: 147px;
 }
 
+#row4{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
 #dropdown-button-sort{
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -47,18 +54,11 @@
   font-weight: bold;
   font-size: large;}
 
+#col1, #col2{
+  font-size: larger;
+  font-weight: bold;
+}
 #col1{
-  font-size: larger;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
-#col2{
-  font-size: larger;
-  font-weight: bold;
-}
-
-.bebas-neue-regular {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
