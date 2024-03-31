@@ -18,21 +18,22 @@ function Football() {
   const [videos, setVideos] = useState([]);
 
   
-    async function fetchVideos(year = '') {
+  
+    const fetchVideos = async (year = '') => {
       try {
-        const response = await youtubeApi.get('/search', {
+        const api = youtubeApi(); // Call the youtubeApi function to get the Axios instance
+        const response = await api.get('/search', {
           params: {
             part: 'snippet',
-            maxResults: 15, 
-            q: 'Oklahoma State football highlights ' + year, // Replace the template literal with string concatenation
+            maxResults: 15,
+            q: 'Oklahoma State football highlights ' + year,
           },
         });
-        console.log('Response data:', response.data);
         setVideos(response.data.items);
       } catch (error) {
         console.error('Error fetching videos:', error);
       }
-    }
+    };
     useEffect(() => {
     fetchVideos();
   }, []);
@@ -93,31 +94,36 @@ function Football() {
       </div>
 
       <div>
-        <Container bg>
-          <Row id='row5'>
-            <Col id="r5col1"></Col>
-            <Col id="r5col2" align="center">
-              <div className="video-container">
-                {videos.map(video => (
-                  <div key={video.id.videoId} className="video-item">
-                    <h3>{video.snippet.title}</h3>
-                    <iframe
-                      title="OSU Football Highlights"
-                      src={`https://www.youtube.com/embed/${video.id.videoId}`}
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                    ></iframe>
-                  </div>
-                ))}
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      {/* Filter By and VIDEOS HERE section */}
+      <Container bg>
+        <Row id='row4'>
+          <Col id="col1">Filter By</Col>
+          <Col id="col2" align="center">
+            {/* Render videos as a list */}
+            <ul>
+              {videos.map(video => (
+                <li key={video.id.videoId} className="video-item">
+                  <h3>{video.snippet.title}</h3>
+                  <iframe
+                  title = "OSU Football Highlights"
+                    width="560"
+                    height="315"
+                    src={`https://www.youtube.com/embed/${video.id.videoId}`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </li>
+              ))}
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+
+
     </div>
   );
 }
-
 
 export default Football;
