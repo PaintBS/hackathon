@@ -55,12 +55,22 @@ a{
     background-color: #ff7c04;
     border-style: none;
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 300;
+    font-weight: 800;
     font-style: normal;
-    font-weight: bold;
     color: black;
 }
 
+#sport_select_menu{
+    color: black;
+    text-decoration: none;
+}
 
+#sport{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    align-items: center;
+    align-content: center;
+}
   
   
