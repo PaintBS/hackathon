@@ -12,6 +12,7 @@
     color: white;
     padding: 10px 20px;
     font-family: "Bebas Neue", sans-serif;
+    border-bottom: black 2px solid;
 }
 #home-links{
     display: flex;
