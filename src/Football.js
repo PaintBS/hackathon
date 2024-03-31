@@ -47,20 +47,6 @@ function Football() {
       <body>
       <Container id='header_container'>
       <Row id='row1' className='justify-content-center' >OSU Football</Row>
-      <Row id='row2' align = "end"> 
-        <DropdownButton 
-          id="dropdown-button-sort"
-          variant="secondary"
-          title="Sort"
-          className="mt-2"
-          data-bs-theme="light"
-        >
-          <Dropdown.Item href="#/action-1" id='highView'> Highest View </Dropdown.Item>
-          <Dropdown.Item href="#/action-2" id= 'lowView'>Lowest View</Dropdown.Item>
-          <Dropdown.Item href="#/action-3" id='oldest'>Oldest</Dropdown.Item>
-          <Dropdown.Item href="#/action-4" id='recent'>Recent</Dropdown.Item>
-        </DropdownButton>
-      </Row>
     </Container>
     </body>
     </div>
