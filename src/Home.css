@@ -12,7 +12,7 @@ h1{
     margin-top: 200px;
 }
 
-body {
+.home{
     /* Set background image */
     background-image: url('Osusports.jpg');
     /* Ensure the background image covers the entire background area */
