@@ -1,10 +1,11 @@
 import React from "react";
 import MainPage from "./MainPage";
+import './Home.css';
 function Home() {
   return (
     <div>
         <MainPage />
-      <h1>Home Page</h1>
+      <h1>Welcome To Cowboys Athletics</h1>
     </div>
   );
 }

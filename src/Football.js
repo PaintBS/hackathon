@@ -71,11 +71,11 @@ function Football() {
                 {/* Example filter options */}
                 <Dropdown.Item onClick={() => handleYearSelect('2023')} id='year_dropdown'>2023</Dropdown.Item>
                 <Dropdown.Item onClick={() => handleYearSelect('2022')} id='year_dropdown'>2022</Dropdown.Item>
-                <Dropdown.Item onClick={() => handleYearSelect('2022')} id='year_dropdown'>2021</Dropdown.Item>
-                <Dropdown.Item onClick={() => handleYearSelect('2022')} id='year_dropdown'>2020</Dropdown.Item>
-                <Dropdown.Item onClick={() => handleYearSelect('2022')} id='year_dropdown'>2019</Dropdown.Item>
-                <Dropdown.Item onClick={() => handleYearSelect('2022')} id='year_dropdown'>2018</Dropdown.Item>
-                <Dropdown.Item onClick={() => handleYearSelect('2022')} id='year_dropdown'>2017</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2021')} id='year_dropdown'>2021</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2020')} id='year_dropdown'>2020</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2019')} id='year_dropdown'>2019</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2018')} id='year_dropdown'>2018</Dropdown.Item>
+                <Dropdown.Item onClick={() => handleYearSelect('2017')} id='year_dropdown'>2017</Dropdown.Item>
                 {/* Add more options as needed */}
               </DropdownButton>
             </Col>
