@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './OsuLogoWhite.png'; // import the image
 import './MainPage.css'; // import the css file
+import { Link } from 'react-router-dom'; // import the Link component from react-router-dom
 
 
 
@@ -13,8 +14,8 @@ export default function MainPage(){
                 </div>
                 <div>
                 <ul id='home-links'>
-                    <li id='Home'><a href="/">Home</a></li>
-                    <li id='Sports' text-d><a href="/Football">Football</a></li>
+                    <li id='Home'><Link to="/">Home</Link></li>
+                    <li id='Sports' text-d><Link to="/Football">Football</Link></li>
                 </ul>
                 </div>
             </nav>
