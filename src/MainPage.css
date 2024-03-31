@@ -60,6 +60,10 @@ a{
     font-style: normal;
     color: black;
 }
+#menu-drop:hover{
+    background-color: #ff7b00;
+    color: white;
+}
 
 #sport{
     text-decoration: none;
