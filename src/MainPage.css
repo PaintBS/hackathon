@@ -20,6 +20,12 @@
     justify-content: space-between;
     margin-top: 20px;
 }
+#home-links li:hover a {
+    background-color: #ff7b00;
+    color: white;
+}
+
+
 
 img {
     width: 150px;
