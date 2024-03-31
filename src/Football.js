@@ -42,7 +42,7 @@ function Football() {
   }
   return (
     <div>
-    <MainPage />
+    <MainPage/>
     <div id='header'>
       <Container id='header_container'>
       <Row id='row1' className='justify-content-center'>OSU Football</Row>

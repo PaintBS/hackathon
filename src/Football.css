@@ -83,7 +83,7 @@ ul {
 }
 
 .video-item iframe {
-  width: 100%; /* Ensure iframes take full width */
-  max-width: 800px; /* Limit maximum width if needed */
+  width: 100%;
+  max-width: 800px;
+  height: 450px; /* Adjust the height as needed */
 }
-
