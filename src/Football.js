@@ -25,8 +25,8 @@ function Football() {
         const response = await api.get('/search', {
           params: {
             part: 'snippet',
-            maxResults: 10,
-            q: year ? 'Oklahoma State football highlights' + year : 'Oklahoma State football highlights',
+            maxResults: 5,
+            q: year ? 'Oklahoma State football' + year : 'Oklahoma State football',
 
           },
         });
