@@ -79,11 +79,11 @@
   font-style: normal;
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Align iframes horizontally in the center */
-}
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align iframes horizontally in the center */
+  }
 
 .video-item {
   margin-bottom: 20px;
