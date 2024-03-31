@@ -26,14 +26,19 @@ img {
     height: auto;
   }
 
-a{
+.nav-list{
     color: black;
     font-weight: bold;
     font-size:40px;
     padding-top: 35px;
     padding-left: 35px;
     padding-right: 35px;
+    
+}
+.nav-list a {
+    /* Override link color */
     text-decoration: none;
+    color: black;
 }
 
 

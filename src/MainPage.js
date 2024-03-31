@@ -14,8 +14,8 @@ export default function MainPage(){
                 </div>
                 <div>
                 <ul id='home-links'>
-                    <li id='Home'><Link to="/">Home</Link></li>
-                    <li id='Sports' text-d><Link to="/Football">Football</Link></li>
+                    <li className='nav-list' id='Home'><Link to="/">Home</Link></li>
+                    <li className='nav-list' id='Football' text-d><Link to="/Football">Football</Link></li>
                 </ul>
                 </div>
             </nav>
