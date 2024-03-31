@@ -8,11 +8,13 @@ export default function MainPage(){
             <div id='logo'>
                 <img src={logo} alt="OSU Logo" /> {/* use the imported image */}
             </div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/players">About</a></li>
-                <li><a href="/Sports">Sports</a></li>
+            <div>
+            <ul id='home_links'>
+                <li id='Home'><a href="/">Home</a></li>
+                <li id='About'><a href="/players">About</a></li>
+                <li id='Sports' text-d><a href="/Sports">Sports</a></li>
             </ul>
+            </div>
         </nav>
     );
 }

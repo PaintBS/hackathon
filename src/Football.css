@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .Football {
   text-align: center;
 }
@@ -7,32 +9,45 @@
 }
 
 #row1{
-  color: orange;
-  font-size: x-large;
-  padding-top: 30px;
-  padding-bottom: 25px;
-}
-
-#osu_logo{
-  max-width: 30%;
+  color: black;
+  font-size: 85px;
+  font-family: 'bebas';
+  src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  font-weight: bolder;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 #row2{
-  color: black;
-  font-size: larger;
-  padding-top: 25px;
-}
-
-#row3{
-  padding-bottom: 75px;
+  padding-bottom: 147px;
 }
 
 #dropdown-button-sort{
   color: rgb(0, 0, 0);
   font-weight: bold;
+  font-style: normal;
   background-color: rgb(255, 255, 255);
   align-items:end
 }
+
+#highView{
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+}
+#lowView{
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+}
+#oldest{
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;}
+#recent{
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;}
 
 #col1{
   font-size: larger;
@@ -41,4 +56,10 @@
 #col2{
   font-size: larger;
   font-weight: bold;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
