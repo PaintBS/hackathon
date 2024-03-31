@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const KEY = 'AIzaSyDeLMMXhZNM3Deutf5Ajp8jCr_s-ahiZTw'; // Replace 'YOUR_API_KEY' with your actual YouTube API key
+const KEY = 'AIzaSyCalLZ8FTnLyegO5fTo8syLUsyd9miPjYU'; // Replace 'YOUR_API_KEY' with your actual YouTube API key
 
 // Create and export a function that returns the Axios instance
 const youtubeApi = () => {
