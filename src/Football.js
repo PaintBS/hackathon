@@ -95,8 +95,8 @@ function Football() {
       <div>
         <Container bg>
           <Row id='row5'>
-            <Col id="col1"></Col>
-            <Col id="col2" align="center">
+            <Col id="r5col1"></Col>
+            <Col id="r5col2" align="center">
               <div className="video-container">
                 {videos.map(video => (
                   <div key={video.id.videoId} className="video-item">
