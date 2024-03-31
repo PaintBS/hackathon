@@ -11,3 +11,16 @@ h1{
     justify-content: center;
     margin-top: 200px;
 }
+
+.home{
+    /* Set background image */
+    background-image: url('Osusports.jpg');
+    /* Ensure the background image covers the entire background area */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    height: 100%;
+    /* Prevent background image from repeating */
+    background-repeat: no-repeat;
+    color: white;
+}

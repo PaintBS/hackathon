@@ -3,7 +3,7 @@ import MainPage from "./MainPage";
 import './Home.css';
 function Home() {
   return (
-    <div>
+    <div className="home">
         <MainPage />
       <h1>Welcome To Cowboys Athletics</h1>
     </div>
