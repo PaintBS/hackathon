@@ -71,6 +71,11 @@ a{
     font-weight: 100;
     align-items: center;
     align-content: center;
+    justify-content: center;
+}
+
+.sport-drop-name{
+    justify-content: center;
 }
   
   
