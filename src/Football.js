@@ -42,7 +42,7 @@ function Football() {
   }
   return (
     <div>
-    <MainPage />
+    <MainPage/>
     <div id='header'>
       <body>
       <Container id='header_container'>
